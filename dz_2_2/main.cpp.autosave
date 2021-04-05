@@ -17,7 +17,6 @@ int main()
 
      an.open("enter.txt");
      an << h << " " << r;
-
      an.close();
 
      en.open("enter.txt");
@@ -28,9 +27,7 @@ int main()
      float S = 3.14*r*(r+sqrt((r*r)+(h*h)));
 
      an.open("answer.txt");
-
      an << "S= "<< S;
-
      an.close();
 
 }
